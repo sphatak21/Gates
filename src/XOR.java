@@ -6,9 +6,6 @@ public class XOR {
         inputTwo = two;
     }
     public int output(){
-        if(inputOne == inputTwo){
-            return 0;
-        }
-        return 1;
+        return ((1 - inputOne) * inputTwo) + ((1-inputTwo) * inputOne);
     }
 }

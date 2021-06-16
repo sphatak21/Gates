@@ -6,6 +6,10 @@ public class OR {
         inputTwo = two;
     }
     public int output(){
+        if(inputOne + inputTwo >= 1){
+            return 1;
+        }
         return inputOne+inputTwo;
+
     }
 }
